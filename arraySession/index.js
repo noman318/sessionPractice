@@ -29,8 +29,9 @@ let a =mdArry[2]=['Shru',22,'female','Js S/W Developer']
 
 // console.log(d)
 // console.log(d.splice(2,1))
-
-// console.log(d)
+// const e = d.toString()
+// const f = e.replace(/,/g,"") // in this our case the regex exp on replace method will this is firrst arg in replace (first arg " /, " find " , " in above string " /g " and /g will do it globally) and than  2nd arg in replace method(3rd arg "") will replace willnothing (”) in our case.
+// console.log(f)
 // for (let i = 0; i < mdArry.length; i++) {
 //     const element = mdArry[i];
 //     // console.log(i)

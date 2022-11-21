@@ -60,3 +60,21 @@ bb=aa.push(09)
 // console.log(bb)
 // The sort() method sorts the elements of an array in place and returns the reference to the same array, now sorted. 
 // The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+const arr2 = [11,12,33,5,67,7]
+
+console.log(arr2.sort((a,b) => a-b)) // ascending order
+console.log(arr2.sort((a,b) => b-a)) // descending order
+
+// How the above code works as function
+// const sorting = arr2.sort((a,b)=>{
+//     if(a<b){
+//         return 1 // for descending order convert it from -1 to 1
+//     }
+//     else if(a>b){
+//         return -1 // for descending order convert it from 1 to -1
+//     }
+//     else{
+//         return 0
+//     }
+// })
+// console.log(sorting)
